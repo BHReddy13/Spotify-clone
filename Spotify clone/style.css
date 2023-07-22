@@ -1,0 +1,79 @@
+body{
+    background-color: cornsilk;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    height: 70PX;
+    padding: auto;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 20px;
+    color:white;
+}
+.container{
+    background-color: black;
+    color:white;
+    margin: 10px 70PX;
+    min-height: 73vh;
+    align-content: center;
+    border-radius: 12px;
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 100px;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.playicons{
+    display: flex;
+    color: aqua;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+.songlist{
+    flex-direction: column;
+}
+.songname{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: auto;
+    margin: 20px 50px;
+    justify-content: space-between;
+    background-color: darkgray;
+    color: black;
+    border-radius: 15px;
+}
+.songname img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.songname i{
+    cursor: pointer;
+}
